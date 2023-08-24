@@ -1,0 +1,85 @@
+*{margin: 0;
+    padding: 0;} 
+    
+    body{margin: 50px;
+       
+       
+    }
+    
+    
+    h2{text-align: center;
+    color:blue;
+    margin:20px;
+    padding: 20px;}
+    
+    hr{border: 1px solid blue;
+    width:260px;
+    margin: 0 auto;
+    margin-top: 10px;}
+    
+    .card{max-width: 250px;
+        margin: 0 auto;
+        text-align: center;
+        border-radius: 20px 30px;
+        background-color:  #131110;
+        
+         
+    }
+    
+    .card:hover{ box-shadow: 0 1px 2px rgb(72, 70, 70);}
+    
+    .calc-head #result{height: 90px;
+                        width:250px;
+                        padding:10px;
+                        font-weight: bolder;
+                        box-sizing: border-box;
+                        word-spacing: -5px;
+                        font-size: 30px;
+                        border: none;
+                        border-bottom: 1px solid White;
+                        text-align: right;
+                        background-color:#131110;
+                        color:#FFFFFF;
+                        border-radius: 15px;
+                       }
+    
+    .calc-body{
+        background-color:#131110;
+        border-radius: 15px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+       
+    }
+    
+    .btn{height: 40px;
+        width:40px;
+        margin: 7px;
+       
+        box-shadow: 0 0 10PX WHITE, -1px 0px 10px blue;
+        border-radius: 50%;
+        border:none;
+        color:rgb(216, 216, 216);
+        background-color: #000000;
+        font-size: 1.2rem;
+        text-align: center;
+        transition: 0.4s;
+       
+        
+        }
+    
+    .btn:hover{color:aqua;
+        box-shadow: 0 0px 5px rgb(0, 191, 255);
+        transform: scale(1.1);
+       }
+    
+   
+    
+    .hero:hover{ box-shadow: 0 0px 5px rgb(253, 12, 12);
+                border: 2px solid aqua;
+                transform: scale(1.1);
+    }
+    
+
+@media screen and (max-width:600px){width:100%;
+                                    height:100%;
+                                    }
